@@ -1,11 +1,11 @@
-package Models;
+package org.example.paymybuddy.model;
 
 import java.math.BigDecimal;
 import java.util.Date;
 
 public class Transaction {
 
-    private long id;
+    private Long id;
     private String description;
     private BigDecimal amount;
     private Date date;

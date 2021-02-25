@@ -1,5 +1,4 @@
-package Models;
-
+package org.example.paymybuddy.model;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -7,7 +6,7 @@ import java.util.List;
 
 public class Account {
 
-    private long id;//FK
+    private Long id;//FK
     private BigDecimal amount;
     private Date date;
 

@@ -1,10 +1,10 @@
-package Models;
+package org.example.paymybuddy.model;
 
 import java.util.List;
 
 public class CreditCard {
 
-    private long id;
+    private Long id;
     private String nameCard;
 
     private List<Account> listAccounts;
